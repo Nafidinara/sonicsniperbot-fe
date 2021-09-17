@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <!-- <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon"> -->
+    <link rel="icon" type="image/png" href="assets/icon-title-2.png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -20,8 +20,7 @@
 </head>
 <body style="font-family: 'Montserrat', sans-serif;">
     <div class="container-fluid"  style="background-color: #0E6699;">
-        <nav class="navbar navbar-expand-lg" style="padding-top: 11px;" data-aos="fade-down data-aos-duration="1500""
-        data-aos-easing="linear">
+        <nav class="navbar navbar-expand-lg" style="padding-top: 11px;" data-aos="fade-down data-aos-duration="1500" data-aos-easing="linear">
             <div class="container">
                 <a class="navbar-brand" href="#">
                     <img src="assets/LOGO.png" alt="" width="125" class="d-inline-block align-text-top">
@@ -32,10 +31,11 @@
                 <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
                       <a class="nav-link active text-white" aria-current="page" style="padding-right: 32px;" href="#" >Home</a>
-                      <a class="nav-link text-white" style="padding-right: 32px;" href="#">Pricing</a>
-                      <a class="nav-link text-white" style="padding-right: 32px;" href="#">FAQ</a>
-                      <a class="nav-link text-white" style="padding-right: 32px;" href="#">Documentation</a>
-                      <a class="nav-link text-white" href="#">Contact</a>
+                      <a class="nav-link text-white" style="padding-right: 32px;" href="#pricing">Pricing</a>
+                      <a class="nav-link text-white" style="padding-right: 32px;" href="#faqs">FAQ</a>
+                      <a class="nav-link text-white" style="padding-right: 32px;" href="#teams">Teams</a>
+                      <a class="nav-link text-white" style="padding-right: 32px;" href="#docs">Documentation</a>
+                      <a class="nav-link text-white" href="#contacts">Contact</a>
                     </div>
                 </div>
             </div>
@@ -60,17 +60,17 @@
                      </div>
                      <div class="row justify-content-start white-button" style="padding-top: 4%;">
                         <div class="col-md-12" style="z-index: 1;">
-                            <a href=""><button type="button" class="btn btn-light">Buy Now</button></a>
+                            <a href="https://discordapp.com/users/465451308854542348" target="_blank"><button type="button" class="btn btn-light">Buy Now</button></a>
                         </div>
                     </div>
                  </div>
                  <div class="col-md-6 top-img justify-content-end img-top" data-aos="fade-left" data-aos-duration="1500">
-                     <img src="assets/image_1.png" style="margin-left: 12%;" width="95%" class="d-inline-block align-text-top">
+                     <img src="assets/header-giff.gif" style="margin-left: 3%; border-radius: 10px;" max-width="110%" height="110%" class="d-inline-block align-text-top">
                  </div>
             </div>
             <div class="container-fluid d-flex flex-wrap" id="sm-display">
                 <div class="col-md-6 top-img justify-content-end img-top" data-aos="fade-left" data-aos-duration="1500">
-                    <img src="assets/image_1.png" width="95%" class="d-inline-block align-text-top">
+                    <img src="assets/header-giff.gif" width="100%" style="border-radius: 5px;" class="d-inline-block align-text-top">
                 </div>
                 <div class="col-md-6 bottom-text" data-aos="fade-right" data-aos-duration="1500" style="padding-top: 4%;">
                     <div class="row">
@@ -210,7 +210,7 @@
     
     
     <div class="container-fluid" style="background-color: #333333;padding-bottom: 5%;padding-top: 5%;">
-        <div class="container head-title">
+        <div class="container head-title" id="pricing">
             <div class="col-md-12 text-center" data-aos="fade-up" data-aos-duration="1500">
                 <h1 style="font-weight: 650;">Pricing</h1>
                 <img src="assets/Vector 46.png" alt="" width="10%">
@@ -379,7 +379,7 @@
                 </div>
             </div>
             <div class="col-md-6" data-aos="fade-down" data-aos-duration="1500">
-                <div class="row">
+                <div class="row" id="faqs">
                     <p>
                         <div class="col-md-12">
                             <div class="row">
@@ -480,7 +480,7 @@
     </div>
 
     
-    <div class="container-fluid" style="background-color: #333333;color: white;padding-bottom: 7%;padding-top: 5%;">
+    <div class="container-fluid" id="teams" style="background-color: #333333;color: white;padding-bottom: 7%;padding-top: 5%;">
         <div class="container">
             <div class="col-md-12 text-center" data-aos="fade-up" data-aos-duration="1500">
                 <h1 style="font-weight: 650;">Our Team</h1>
@@ -507,7 +507,7 @@
         </div>
     </div>
 
-    <div class="container-fluid text-center" style="background-color: #383838;color: white;padding-top: 5%;padding-bottom: 5%;">
+    <div class="container-fluid text-center" id="docs" style="background-color: #383838;color: white;padding-top: 5%;padding-bottom: 5%;">
         <div class="container" data-aos="fade-up" data-aos-duration="1500">
             <div class="col-md-12">
                 <h2 style="font-weight: 650;">Documentation & References</h2>
@@ -526,7 +526,7 @@
         </div>
     </div>
 
-    <div class="container-fluid" style="background-color: #333333;color: white;padding-top: 10%;padding-bottom: 10%;">
+    <div id="contacts" class="container-fluid" style="background-color: #333333;color: white;padding-top: 10%;padding-bottom: 10%;">
         <div class="container text-center">
             <div class="col-md-12">
                 <h1 style="font-weight: 650;" data-aos="fade-up" data-aos-duration="1500">Contact Us</h1>
