@@ -9,6 +9,36 @@ h1 {
     color: #FFFFFF;
 }
 
+.navbar-toggler {
+    background: transparent !important;
+    position: relative;
+}
+
+.navbar-toggler:focus {
+    outline: none;
+    appearance: none;
+    border: none;
+    box-shadow: none !important;
+}
+
+.navbar-toggler span {
+    position: absolute;
+    top: 0;
+    display: block;
+    width: 24px;
+    height: 2px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.navbar-toggler span + span {
+    top: 8px;
+}
+
+.navbar-toggler span + span + span {
+    top: 16px;
+}
+
 .z-index img {
     position: absolute;
     z-index: 1;
@@ -48,6 +78,14 @@ h1 {
     color: white;
     background: rgb(41,41,41);
     background: linear-gradient(90deg, rgba(41,41,41,0.9472163865546218) 0%, rgba(41,41,41,1) 100%);
+}
+
+.section-advantages {
+    padding-top: 80px;
+}
+
+.adv-card-content {
+    margin-top: 60px;
 }
 
 .adv-card-row {
