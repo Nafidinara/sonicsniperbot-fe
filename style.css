@@ -50,6 +50,23 @@ h1 {
     background: linear-gradient(90deg, rgba(41,41,41,0.9472163865546218) 0%, rgba(41,41,41,1) 100%);
 }
 
+.adv-card-row {
+    align-items: stretch;
+}
+
+.adv-card-items {
+    padding: 20px;
+    height: 100%;
+}
+
+.pricing-card-row {
+    align-items: stretch;
+}
+
+.pricing-card {
+    height: 100%;
+}
+
 @media (min-width: 772px) and (max-width: 1920px) {
     #sm-display {
         display: none !important;
@@ -61,7 +78,7 @@ h1 {
     .head-title {
         margin-top: 3%;
     }
-  }
+}
 
 @media only screen and (max-width: 774px) {
     #lg-display {
@@ -80,11 +97,11 @@ h1 {
         padding-top: 0 !important;
     }
 
-    .adv-card-items {
+    .adv-card-col {
         margin: 15px 0;
     }
 
-    .pricing-card {
+    .pricing-col {
         margin: 25px 0;
     }
 
@@ -92,4 +109,10 @@ h1 {
         margin: 25px 0;
     }
 
-  }
+}
+
+@media(max-width: 991px) {
+    .pricing-col {
+        margin-bottom: 30px;
+    }
+}
